@@ -12,13 +12,10 @@ struct Node {
     next: Link,
 }
 
-
 enum Link {
     Empty,
     More(Box<Node>),
 }
-
-
 
 pub struct List {
     head: Link,
